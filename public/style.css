@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.Box {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Box > div {
+    position: relative;
+}
+
+.Box video {
+    transform: rotateY(180deg);
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    z-index: 2222;
+}
+
+
+table {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.tables-hand {
+    margin-top: 1rem;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.tables-hand>div {
+    display: flex;
+}
+
+.tables-finger {
+    margin-top: 1rem;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+/* .tables-finger>div {
+    display: flex;
+} */
